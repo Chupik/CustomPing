@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		A1893B321AD7D1F000E09721 /* CustomPing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomPing; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1893B351AD7D1F000E09721 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1893B3C1AD7FDFF00E09721 /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		A1893B291AD7D1F000E09721 = {
 			isa = PBXGroup;
 			children = (
+				A1893B3C1AD7FDFF00E09721 /* libc.dylib */,
 				A1893B341AD7D1F000E09721 /* CustomPing */,
 				A1893B331AD7D1F000E09721 /* Products */,
 			);
